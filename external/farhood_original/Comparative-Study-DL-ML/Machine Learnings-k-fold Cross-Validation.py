@@ -28,7 +28,7 @@ except Exception as e:
     print(str(e))
 
 data_math['Result'] = ['Pass' if x > 10 else 'Fail' for x in data_math['Grade']]
-data_math = data_math.drop(columns='Grade', axis=1)
+data_math = data_math.drop(columns='Grade')
 
 
 # Printing the number of columns, names of columns with the first few rows of the dataset
@@ -319,11 +319,12 @@ labels_with_lasso_kfold = ['Logistic Regression with Lasso', 'SVM with Lasso', '
                           'Linear Regression with Lasso', 'Decision Tree with Lasso',
                           'Random Forest with Lasso', 'XGBoost with Lasso']
 
-plt.boxplot(accuracy_values_with_lasso_kfold, labels=labels_with_lasso_kfold, vert=False, showmeans=True)
+plt.boxplot(accuracy_values_with_lasso_kfold, tick_labels=labels_with_lasso_kfold, vert=False, showmeans=True)
 plt.xlabel('Accuracy')
 plt.title('Machine Learning with Lasso - k-Fold Cross Validation', fontweight="bold")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("../../../figures/reproduction/mathematics/kfold/with_lasso_boxplot.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Creating a boxplot for machine learning models without Lasso for K-Fold Cross Validation
@@ -334,9 +335,10 @@ accuracy_values_without_lasso_kfold = [accuracy_values_log_reg, accuracy_values_
 labels_without_lasso_kfold = ['Logistic Regression', 'SVM', 'KNN', 'Linear Regression',
                              'Decision Tree', 'Random Forest', 'XGBoost']
 
-plt.boxplot(accuracy_values_without_lasso_kfold, labels=labels_without_lasso_kfold, vert=False, showmeans=True)
+plt.boxplot(accuracy_values_without_lasso_kfold, tick_labels=labels_without_lasso_kfold, vert=False, showmeans=True)
 plt.xlabel('Accuracy')
 plt.title('Machine Learning without Lasso - k-Fold Cross Validation', fontweight="bold")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("../../../figures/reproduction/mathematics/kfold/without_lasso_boxplot.png", dpi=300, bbox_inches="tight")
 plt.show()

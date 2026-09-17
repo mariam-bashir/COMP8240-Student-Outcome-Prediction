@@ -1,0 +1,154 @@
+/Users/awais/Desktop/COMP8240_Project/external/farhood_original/Comparative-Study-DL-ML/Machine Learnings-Holdout.py:41: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+  non_numerical_cols = data_math.select_dtypes(include=['object']).columns
+/Users/awais/Desktop/COMP8240_Project/external/farhood_original/Comparative-Study-DL-ML/Machine Learnings-Holdout.py:282: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(accuracy_values_with_lasso, tick_labels=labels_with_lasso, vert=False, showmeans=True)
+/Users/awais/Desktop/COMP8240_Project/external/farhood_original/Comparative-Study-DL-ML/Machine Learnings-Holdout.py:294: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(accuracy_values_without_lasso, tick_labels=labels_without_lasso, vert=False, showmeans=True)
+Index(['school', 'sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu',
+       'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 'studytime',
+       'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery',
+       'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc',
+       'Walc', 'health', 'absences', 'G1', 'G2', 'Result'],
+      dtype='str')
+  school sex  age address famsize  ... health  absences  G1  G2 Result
+0     GP   F   18       U     GT3  ...      3         6   5   6   Fail
+1     GP   F   17       U     GT3  ...      3         4   5   5   Fail
+2     GP   F   15       U     LE3  ...      3        10   7   8   Fail
+3     GP   F   15       U     GT3  ...      5         2  15  14   Pass
+4     GP   F   16       U     GT3  ...      5         4   6  10   Fail
+
+[5 rows x 33 columns]
+33
+     age  Medu  Fedu  ...  internet_yes  romantic_yes  Result_Pass
+0     18     4     4  ...         False         False        False
+1     17     1     1  ...          True         False        False
+2     15     1     1  ...          True         False        False
+3     15     4     2  ...          True          True         True
+4     16     3     3  ...         False         False        False
+..   ...   ...   ...  ...           ...           ...          ...
+390   20     2     2  ...         False         False        False
+391   17     3     1  ...          True         False         True
+392   21     1     1  ...         False         False        False
+393   18     3     2  ...          True         False        False
+394   19     1     1  ...          True         False        False
+
+[395 rows x 42 columns]
+42
+0.03593813663804628
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.016681005372000592
+0.03593813663804628
+0.021544346900318832
+0.027825594022071243
+0.016681005372000592
+0.021544346900318832
+0.016681005372000592
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.016681005372000592
+0.021544346900318832
+0.021544346900318832
+0.03593813663804628
+0.027825594022071243
+0.021544346900318832
+0.016681005372000592
+0.027825594022071243
+0.027825594022071243
+0.016681005372000592
+0.021544346900318832
+0.027825594022071243
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.021544346900318832
+0.01291549665014884
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+0.027825594022071243
+0.021544346900318832
+0.021544346900318832
+0.016681005372000592
+0.021544346900318832
+0.027825594022071243
+0.016681005372000592
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+0.016681005372000592
+0.03593813663804628
+0.01
+0.016681005372000592
+0.016681005372000592
+0.016681005372000592
+0.021544346900318832
+0.027825594022071243
+0.03593813663804628
+0.021544346900318832
+0.016681005372000592
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.016681005372000592
+0.016681005372000592
+0.016681005372000592
+0.021544346900318832
+0.01291549665014884
+0.021544346900318832
+0.01291549665014884
+0.021544346900318832
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+0.03593813663804628
+0.027825594022071243
+0.03593813663804628
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.021544346900318832
+0.021544346900318832
+0.027825594022071243
+0.021544346900318832
+0.016681005372000592
+0.01291549665014884
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.027825594022071243
+0.021544346900318832
+Mean Accuracies Without Lasso:
+Linear Regression: 87.80%
+Logistic Regression: 89.95%
+SVM: 87.30%
+Decision Tree: 89.62%
+Random Forest: 93.58%
+KNN: 73.05%
+XGBoost: 93.48%
+
+Mean Accuracies With Lasso:
+Linear Regression with Lasso: 89.46%
+Logistic Regression with Lasso: 91.56%
+SVM with Lasso: 89.85%
+Decision Tree with Lasso: 89.65%
+Random Forest with Lasso: 92.86%
+KNN with Lasso: 82.42%
+XGBoost with Lasso: 92.10%

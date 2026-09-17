@@ -1,0 +1,31 @@
+Part 1 – Reproduction of Farhood et al. (2024)
+
+Datasets:
+1. UCI Student Performance – Mathematics
+2. xAPI-Edu-Data
+
+Models:
+- Linear Regression
+- Logistic Regression
+- kNN
+- SVM
+- Decision Tree
+- Random Forest
+- XGBoost
+
+Evaluation:
+- 100 repeated 80/20 holdout runs
+- 5-fold cross-validation repeated 100 times
+- With and without Lasso feature selection
+
+Mathematics:
+- Successfully reproduced using Farhood's released ML scripts.
+- Random Forest holdout accuracy: 93.58%.
+
+xAPI:
+- Reproduced using Farhood's released ML code structure with
+  xAPI preprocessing described in the paper.
+- 480 records
+- 38 predictors after preprocessing
+- Pass = Middle + High
+- Fail = Low

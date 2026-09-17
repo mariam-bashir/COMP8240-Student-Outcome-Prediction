@@ -29,7 +29,7 @@ except Exception as e:
 
 
 data_math['Result'] = ['Pass' if x > 10 else 'Fail' for x in data_math['Grade']]
-data_math = data_math.drop(columns='Grade', axis=1)
+data_math = data_math.drop(columns='Grade')
 
 # Printing the number of columns, names of columns with the first few rows of the dataset
 print(data_math.columns)
@@ -279,11 +279,12 @@ accuracy_values_with_lasso = [accuracy_valuesLiR_lasso, accuracy_valuesLoR_lasso
                               accuracy_valuesDT_lasso, accuracy_valuesRF_lasso, accuracy_valuesKNN_lasso, accuracy_valuesXGB_lasso]
 labels_with_lasso = ['Linear Regression with Lasso', 'Logistic Regression with Lasso', 'SVM with Lasso',
                      'Decision Tree with Lasso', 'Random Forest with Lasso', 'KNN with Lasso', 'XGBoost with Lasso']
-plt.boxplot(accuracy_values_with_lasso, labels=labels_with_lasso, vert=False, showmeans=True)
+plt.boxplot(accuracy_values_with_lasso, tick_labels=labels_with_lasso, vert=False, showmeans=True)
 plt.xlabel('Accuracy')
 plt.title('Machine Learning with Lasso - Holdout', fontweight="bold")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("../../../figures/reproduction/mathematics/holdout/with_lasso_boxplot.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Creating a boxplot for machine learning models without Lasso
@@ -291,9 +292,10 @@ plt.figure(figsize=(12, 6))
 accuracy_values_without_lasso = [accuracy_valuesLiR, accuracy_valuesLoR, accuracy_valuesSVM,
                                  accuracy_valuesDT, accuracy_valuesRF, accuracy_valuesKNN, accuracy_valuesXGB]
 labels_without_lasso = ['Linear Regression', 'Logistic Regression', 'SVM', 'Decision Tree', 'Random Forest', 'KNN', 'XGBoost']
-plt.boxplot(accuracy_values_without_lasso, labels=labels_without_lasso, vert=False, showmeans=True)
+plt.boxplot(accuracy_values_without_lasso, tick_labels=labels_without_lasso, vert=False, showmeans=True)
 plt.xlabel('Accuracy')
 plt.title('Machine Learning without Lasso - Holdout', fontweight="bold")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("../../../figures/reproduction/mathematics/holdout/without_lasso_boxplot.png", dpi=300, bbox_inches="tight")
 plt.show()
