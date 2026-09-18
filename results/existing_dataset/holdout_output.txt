@@ -1,0 +1,132 @@
+/Users/awais/Desktop/COMP8240_Project/src/existing_dataset/existing_holdout.py:332: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(accuracy_values_with_lasso, tick_labels=labels_with_lasso, vert=False, showmeans=True)
+/Users/awais/Desktop/COMP8240_Project/src/existing_dataset/existing_holdout.py:345: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(accuracy_values_without_lasso, tick_labels=labels_without_lasso, vert=False, showmeans=True)
+Dataset shape: (3630, 37)
+Encoded predictor count: 229
+Target distribution:
+Outcome
+Success    2209
+Failure    1421
+Name: count, dtype: int64
+Remaining object columns:
+[]
+Missing values: 0
+Existing-dataset preprocessing validation: PASSED
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+Mean Accuracies Without Lasso:
+Linear Regression: 90.06%
+Logistic Regression: 90.26%
+SVM: 87.86%
+Decision Tree: 85.86%
+Random Forest: 90.61%
+KNN: 75.62%
+XGBoost: 90.69%
+
+Mean Accuracies With Lasso:
+Linear Regression with Lasso: 90.83%
+Logistic Regression with Lasso: 91.11%
+SVM with Lasso: 90.47%
+Decision Tree with Lasso: 86.13%
+Random Forest with Lasso: 90.46%
+KNN with Lasso: 85.70%
+XGBoost with Lasso: 90.50%
