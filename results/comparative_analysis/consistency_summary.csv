@@ -1,0 +1,7 @@
+,without_lasso_abs_difference_pp,without_lasso_abs_difference_pp,with_lasso_abs_difference_pp,with_lasso_abs_difference_pp
+,mean,max,mean,max
+dataset,,,,
+Constructed GPA 3.0,0.11,0.23,0.44,1.13
+Mathematics reproduction,0.19,0.39,0.26,0.94
+UCI existing dataset,0.05,0.1,0.05,0.16
+xAPI reproduction,0.11,0.18,0.26,0.51

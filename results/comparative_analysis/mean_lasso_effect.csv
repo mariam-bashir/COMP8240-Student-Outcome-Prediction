@@ -1,0 +1,8 @@
+model,Constructed GPA 3.0,Mathematics reproduction,UCI existing dataset,xAPI reproduction
+Decision Tree,-0.36,-0.18,0.34,0.2
+KNN,3.88,9.64,10.16,2.56
+Linear Regression,-0.13,1.6,0.76,0.46
+Logistic Regression,-0.86,1.52,0.83,0.56
+Random Forest,-0.92,-0.8,-0.18,-1.04
+SVM,0.22,2.46,2.66,-0.12
+XGBoost,-0.92,-1.49,-0.22,-1.27

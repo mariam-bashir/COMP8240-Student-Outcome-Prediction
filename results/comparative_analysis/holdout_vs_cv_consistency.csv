@@ -1,0 +1,29 @@
+dataset,model,holdout_without_lasso,holdout_with_lasso,cv_without_lasso,cv_with_lasso,without_lasso_abs_difference_pp,with_lasso_abs_difference_pp
+Mathematics reproduction,Linear Regression,87.8,89.46,87.75,89.28,0.05,0.18
+Mathematics reproduction,Logistic Regression,89.95,91.56,89.94,91.36,0.01,0.2
+Mathematics reproduction,SVM,87.3,89.85,87.59,89.96,0.29,0.11
+Mathematics reproduction,Decision Tree,89.62,89.65,89.94,89.55,0.32,0.1
+Mathematics reproduction,Random Forest,93.58,92.86,93.83,92.96,0.25,0.1
+Mathematics reproduction,KNN,73.05,82.42,73.44,83.36,0.39,0.94
+Mathematics reproduction,XGBoost,93.49,92.1,93.52,91.93,0.03,0.17
+xAPI reproduction,Linear Regression,90.93,91.49,91.11,91.47,0.18,0.02
+xAPI reproduction,Logistic Regression,91.04,91.7,91.2,91.66,0.16,0.04
+xAPI reproduction,SVM,91.25,91.03,91.36,91.35,0.11,0.32
+xAPI reproduction,Decision Tree,88.01,88.3,87.95,88.07,0.06,0.23
+xAPI reproduction,Random Forest,92.36,91.45,92.44,91.27,0.08,0.18
+xAPI reproduction,KNN,88.41,90.71,88.37,91.2,0.04,0.49
+xAPI reproduction,XGBoost,91.66,90.72,91.8,90.21,0.14,0.51
+UCI existing dataset,Linear Regression,90.06,90.83,90.1,90.85,0.04,0.02
+UCI existing dataset,Logistic Regression,90.26,91.11,90.28,91.09,0.02,0.02
+UCI existing dataset,SVM,87.86,90.47,87.81,90.52,0.05,0.05
+UCI existing dataset,Decision Tree,85.86,86.13,85.76,86.16,0.1,0.03
+UCI existing dataset,Random Forest,90.61,90.46,90.71,90.49,0.1,0.03
+UCI existing dataset,KNN,75.62,85.7,75.63,85.86,0.01,0.16
+UCI existing dataset,XGBoost,90.69,90.5,90.71,90.46,0.02,0.04
+Constructed GPA 3.0,Linear Regression,87.19,87.33,87.22,86.81,0.03,0.52
+Constructed GPA 3.0,Logistic Regression,87.49,87.08,87.6,86.29,0.11,0.79
+Constructed GPA 3.0,SVM,87.23,87.6,87.33,87.39,0.1,0.21
+Constructed GPA 3.0,Decision Tree,86.55,86.24,86.44,86.02,0.11,0.22
+Constructed GPA 3.0,Random Forest,88.12,87.31,88.23,87.19,0.11,0.12
+Constructed GPA 3.0,KNN,83.19,86.54,83.26,87.67,0.07,1.13
+Constructed GPA 3.0,XGBoost,89.05,87.97,88.82,88.06,0.23,0.09

@@ -1,0 +1,57 @@
+dataset,evaluation,model,without_lasso,rank_without_lasso,with_lasso,rank_with_lasso
+Constructed GPA 3.0,5-fold CV,XGBoost,88.82,1.0,88.06,1.0
+Constructed GPA 3.0,5-fold CV,Random Forest,88.23,2.0,87.19,4.0
+Constructed GPA 3.0,5-fold CV,Logistic Regression,87.6,3.0,86.29,6.0
+Constructed GPA 3.0,5-fold CV,SVM,87.33,4.0,87.39,3.0
+Constructed GPA 3.0,5-fold CV,Linear Regression,87.22,5.0,86.81,5.0
+Constructed GPA 3.0,5-fold CV,Decision Tree,86.44,6.0,86.02,7.0
+Constructed GPA 3.0,5-fold CV,KNN,83.26,7.0,87.67,2.0
+Constructed GPA 3.0,Holdout,XGBoost,89.05,1.0,87.97,1.0
+Constructed GPA 3.0,Holdout,Random Forest,88.12,2.0,87.31,4.0
+Constructed GPA 3.0,Holdout,Logistic Regression,87.49,3.0,87.08,5.0
+Constructed GPA 3.0,Holdout,SVM,87.23,4.0,87.6,2.0
+Constructed GPA 3.0,Holdout,Linear Regression,87.19,5.0,87.33,3.0
+Constructed GPA 3.0,Holdout,Decision Tree,86.55,6.0,86.24,7.0
+Constructed GPA 3.0,Holdout,KNN,83.19,7.0,86.54,6.0
+Mathematics reproduction,5-fold CV,Random Forest,93.83,1.0,92.96,1.0
+Mathematics reproduction,5-fold CV,XGBoost,93.52,2.0,91.93,2.0
+Mathematics reproduction,5-fold CV,Logistic Regression,89.94,3.0,91.36,3.0
+Mathematics reproduction,5-fold CV,Decision Tree,89.94,3.0,89.55,5.0
+Mathematics reproduction,5-fold CV,Linear Regression,87.75,5.0,89.28,6.0
+Mathematics reproduction,5-fold CV,SVM,87.59,6.0,89.96,4.0
+Mathematics reproduction,5-fold CV,KNN,73.44,7.0,83.36,7.0
+Mathematics reproduction,Holdout,Random Forest,93.58,1.0,92.86,1.0
+Mathematics reproduction,Holdout,XGBoost,93.49,2.0,92.1,2.0
+Mathematics reproduction,Holdout,Logistic Regression,89.95,3.0,91.56,3.0
+Mathematics reproduction,Holdout,Decision Tree,89.62,4.0,89.65,5.0
+Mathematics reproduction,Holdout,Linear Regression,87.8,5.0,89.46,6.0
+Mathematics reproduction,Holdout,SVM,87.3,6.0,89.85,4.0
+Mathematics reproduction,Holdout,KNN,73.05,7.0,82.42,7.0
+UCI existing dataset,5-fold CV,Random Forest,90.71,1.0,90.49,4.0
+UCI existing dataset,5-fold CV,XGBoost,90.71,1.0,90.46,5.0
+UCI existing dataset,5-fold CV,Logistic Regression,90.28,3.0,91.09,1.0
+UCI existing dataset,5-fold CV,Linear Regression,90.1,4.0,90.85,2.0
+UCI existing dataset,5-fold CV,SVM,87.81,5.0,90.52,3.0
+UCI existing dataset,5-fold CV,Decision Tree,85.76,6.0,86.16,6.0
+UCI existing dataset,5-fold CV,KNN,75.63,7.0,85.86,7.0
+UCI existing dataset,Holdout,XGBoost,90.69,1.0,90.5,3.0
+UCI existing dataset,Holdout,Random Forest,90.61,2.0,90.46,5.0
+UCI existing dataset,Holdout,Logistic Regression,90.26,3.0,91.11,1.0
+UCI existing dataset,Holdout,Linear Regression,90.06,4.0,90.83,2.0
+UCI existing dataset,Holdout,SVM,87.86,5.0,90.47,4.0
+UCI existing dataset,Holdout,Decision Tree,85.86,6.0,86.13,6.0
+UCI existing dataset,Holdout,KNN,75.62,7.0,85.7,7.0
+xAPI reproduction,5-fold CV,Random Forest,92.44,1.0,91.27,4.0
+xAPI reproduction,5-fold CV,XGBoost,91.8,2.0,90.21,6.0
+xAPI reproduction,5-fold CV,SVM,91.36,3.0,91.35,3.0
+xAPI reproduction,5-fold CV,Logistic Regression,91.2,4.0,91.66,1.0
+xAPI reproduction,5-fold CV,Linear Regression,91.11,5.0,91.47,2.0
+xAPI reproduction,5-fold CV,KNN,88.37,6.0,91.2,5.0
+xAPI reproduction,5-fold CV,Decision Tree,87.95,7.0,88.07,7.0
+xAPI reproduction,Holdout,Random Forest,92.36,1.0,91.45,3.0
+xAPI reproduction,Holdout,XGBoost,91.66,2.0,90.72,5.0
+xAPI reproduction,Holdout,SVM,91.25,3.0,91.03,4.0
+xAPI reproduction,Holdout,Logistic Regression,91.04,4.0,91.7,1.0
+xAPI reproduction,Holdout,Linear Regression,90.93,5.0,91.49,2.0
+xAPI reproduction,Holdout,KNN,88.41,6.0,90.71,6.0
+xAPI reproduction,Holdout,Decision Tree,88.01,7.0,88.3,7.0

@@ -1,0 +1,15 @@
+evaluation,model,without_lasso,with_lasso,lasso_change_pp
+Holdout,Linear Regression,79.79,79.6,-0.19
+Holdout,Logistic Regression,80.35,80.22,-0.13
+Holdout,SVM,82.05,82.55,0.5
+Holdout,Decision Tree,84.53,84.3,-0.23
+Holdout,Random Forest,85.7,86.27,0.57
+Holdout,KNN,77.12,81.02,3.9
+Holdout,XGBoost,88.75,88.49,-0.26
+5-fold CV,Linear Regression,79.76,79.57,-0.19
+5-fold CV,Logistic Regression,80.29,80.1,-0.19
+5-fold CV,SVM,81.88,82.26,0.38
+5-fold CV,Decision Tree,84.78,84.3,-0.48
+5-fold CV,Random Forest,85.85,86.0,0.15
+5-fold CV,KNN,77.24,81.86,4.62
+5-fold CV,XGBoost,88.7,88.18,-0.52

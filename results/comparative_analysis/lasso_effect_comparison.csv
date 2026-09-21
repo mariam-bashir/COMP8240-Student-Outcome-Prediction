@@ -1,0 +1,10 @@
+dataset,Constructed GPA 3.0,Constructed GPA 3.0,Mathematics reproduction,Mathematics reproduction,UCI existing dataset,UCI existing dataset,xAPI reproduction,xAPI reproduction
+evaluation,5-fold CV,Holdout,5-fold CV,Holdout,5-fold CV,Holdout,5-fold CV,Holdout
+model,,,,,,,,
+Decision Tree,-0.42,-0.31,-0.39,0.03,0.4,0.27,0.12,0.29
+KNN,4.41,3.35,9.92,9.37,10.23,10.08,2.83,2.3
+Linear Regression,-0.41,0.14,1.53,1.66,0.75,0.77,0.36,0.56
+Logistic Regression,-1.31,-0.41,1.42,1.61,0.81,0.85,0.46,0.66
+Random Forest,-1.04,-0.81,-0.87,-0.72,-0.22,-0.15,-1.17,-0.91
+SVM,0.06,0.37,2.37,2.55,2.71,2.61,-0.01,-0.22
+XGBoost,-0.76,-1.08,-1.59,-1.39,-0.25,-0.19,-1.59,-0.94

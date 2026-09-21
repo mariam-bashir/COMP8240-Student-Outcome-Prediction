@@ -1,0 +1,29 @@
+dataset,model,Improved,Reduced
+Constructed GPA 3.0,Decision Tree,0,2
+Constructed GPA 3.0,KNN,2,0
+Constructed GPA 3.0,Linear Regression,1,1
+Constructed GPA 3.0,Logistic Regression,0,2
+Constructed GPA 3.0,Random Forest,0,2
+Constructed GPA 3.0,SVM,2,0
+Constructed GPA 3.0,XGBoost,0,2
+Mathematics reproduction,Decision Tree,1,1
+Mathematics reproduction,KNN,2,0
+Mathematics reproduction,Linear Regression,2,0
+Mathematics reproduction,Logistic Regression,2,0
+Mathematics reproduction,Random Forest,0,2
+Mathematics reproduction,SVM,2,0
+Mathematics reproduction,XGBoost,0,2
+UCI existing dataset,Decision Tree,2,0
+UCI existing dataset,KNN,2,0
+UCI existing dataset,Linear Regression,2,0
+UCI existing dataset,Logistic Regression,2,0
+UCI existing dataset,Random Forest,0,2
+UCI existing dataset,SVM,2,0
+UCI existing dataset,XGBoost,0,2
+xAPI reproduction,Decision Tree,2,0
+xAPI reproduction,KNN,2,0
+xAPI reproduction,Linear Regression,2,0
+xAPI reproduction,Logistic Regression,2,0
+xAPI reproduction,Random Forest,0,2
+xAPI reproduction,SVM,0,2
+xAPI reproduction,XGBoost,0,2

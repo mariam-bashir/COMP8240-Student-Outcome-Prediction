@@ -1,0 +1,9 @@
+dataset,evaluation,best_without_lasso,accuracy_without_lasso,best_with_lasso,accuracy_with_lasso
+Mathematics reproduction,Holdout,Random Forest,93.58,Random Forest,92.86
+Mathematics reproduction,5-fold CV,Random Forest,93.83,Random Forest,92.96
+xAPI reproduction,Holdout,Random Forest,92.36,Logistic Regression,91.7
+xAPI reproduction,5-fold CV,Random Forest,92.44,Logistic Regression,91.66
+UCI existing dataset,Holdout,XGBoost,90.69,Logistic Regression,91.11
+UCI existing dataset,5-fold CV,Random Forest / XGBoost,90.71,Logistic Regression,91.09
+Constructed GPA 3.0,Holdout,XGBoost,89.05,XGBoost,87.97
+Constructed GPA 3.0,5-fold CV,XGBoost,88.82,XGBoost,88.06

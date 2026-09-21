@@ -1,0 +1,149 @@
+/Users/awais/Desktop/COMP8240_Project/src/constructed_dataset/sensitivity_analysis/gpa35_holdout.py:352: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(
+/Users/awais/Desktop/COMP8240_Project/src/constructed_dataset/sensitivity_analysis/gpa35_holdout.py:393: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  plt.boxplot(
+Index(['gender', 'study_stage', 'study_preparation', 'attendance',
+       'extracurricular_participation', 'family_income',
+       'previous_academic_performance', 'Result'],
+      dtype='str')
+   gender study_stage  ... previous_academic_performance Result
+0    Male        Late  ...                          2.68   Fail
+1    Male       Early  ...                          2.68   Fail
+2  Female      Middle  ...                          2.68   Fail
+3    Male       Early  ...                          2.68   Fail
+4    Male       Early  ...                          2.68   Fail
+
+[5 rows x 8 columns]
+8
+      previous_academic_performance  ...  Result_Pass
+0                              2.68  ...        False
+1                              2.68  ...        False
+2                              2.68  ...        False
+3                              2.68  ...        False
+4                              2.68  ...        False
+...                             ...  ...          ...
+1591                           4.00  ...         True
+1592                           4.00  ...         True
+1593                           4.00  ...         True
+1594                           4.00  ...         True
+1595                           4.00  ...         True
+
+[1596 rows x 14 columns]
+14
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01291549665014884
+0.01
+0.016681005372000592
+0.01
+0.01291549665014884
+0.01
+0.01
+0.016681005372000592
+0.01291549665014884
+0.01
+0.016681005372000592
+0.01291549665014884
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.021544346900318832
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01291549665014884
+0.016681005372000592
+0.01291549665014884
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01291549665014884
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.016681005372000592
+0.01291549665014884
+0.01291549665014884
+0.016681005372000592
+0.01
+0.01
+0.01
+0.01
+0.01
+0.01
+0.027825594022071243
+0.01
+0.01
+0.016681005372000592
+0.01
+0.01
+0.016681005372000592
+0.01291549665014884
+0.01
+0.016681005372000592
+Mean Accuracies Without Lasso:
+Linear Regression: 79.79%
+Logistic Regression: 80.35%
+SVM: 82.05%
+Decision Tree: 84.53%
+Random Forest: 85.70%
+KNN: 77.12%
+XGBoost: 88.75%
+
+Mean Accuracies With Lasso:
+Linear Regression with Lasso: 79.60%
+Logistic Regression with Lasso: 80.22%
+SVM with Lasso: 82.55%
+Decision Tree with Lasso: 84.30%
+Random Forest with Lasso: 86.27%
+KNN with Lasso: 81.02%
+XGBoost with Lasso: 88.49%
